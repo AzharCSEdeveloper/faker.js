@@ -1,0 +1,14 @@
+body{
+    font-family: sans-serif;
+}
+core-list .row{
+    height: 80px;
+    padding:16;
+}
+core-list .avatar{
+    height: 40;
+    width: 40;
+    border-radius:50%;
+    margin-right:16px;
+    background-color:#00BCD4;
+}

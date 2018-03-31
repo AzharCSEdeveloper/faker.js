@@ -1,0 +1,26 @@
+{
+  "name": "polymer1",
+  "authors": [
+    "mr coder <arbis@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "polymer": "Polymer/polymer#^2.6.0",
+    "core-toolbar": "Polymer/core-toolbar#^0.5.6",
+    "paper-icon-button": "Polymer/paper-icon-button#^0.5.6",
+    "paper-progress": "Polymer/paper-progress#^0.5.6",
+    "core-elements": "Polymer/core-elements#^0.5.6",
+    "page": "page.js#^1.8.6",
+    "faker": "Faker#^4.1.0"
+  }
+}

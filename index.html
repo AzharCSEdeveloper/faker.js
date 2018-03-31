@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="chrome=1" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+    <title>azhar khan</title>
+<!--1. load platform support before any code that touches the DOM -->
+<script src="bower_components/webcomponentsjs/webcomponents-lite.js"></script>
+
+<link rel="stylesheet" href="app.css">
+<link rel="import" href="elements.html">
+
+
+
+</head>
+
+<body fullbleed fit  layout vertical>
+   <template is="auto-binding" id="app">
+        <core-list data="{{data}}"" flex>
+                <template>
+                    <div class="row" layout horizontal center> 
+                        <core-image class="avatar"
+                             src="{{model.avatar}}"
+                             preloader;
+                             size="cover">
+                        </core-image>
+                        <div>{{model.name}}</div> </div>
+                </template>
+            </core-list>
+               
+   </template>
+   
+    <script src="bower_components/faker/build/build/faker.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
